@@ -34,6 +34,7 @@ body {
 
 .header {
     background-color: #3161e0;
+    height: 400px;
 }
 
 /* nav */
@@ -60,10 +61,15 @@ body {
 .section {
     background-color: #ffffff;
     flex-basis: 400px;
+
+
 }
 
 .big-img {
     justify-self: flex-start;
+    height: 100px;
+    width: 100px;
+
 }
 
 .img-left {
@@ -75,7 +81,10 @@ body {
     background-color: #f6f6f6;
 }
 
-.description {}
+.description {
+    justify-self: flex-end;
+    flex-grow: 1;
+}
 
 
 .section4 {
@@ -84,11 +93,18 @@ body {
 
 /* footer */
 .footer {
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #23272a;
     color: #8fa1e1;
+    height: 200px;
+}
+
+hr {
+    border: 1px solid #8fa1e1;
 }
 
 .register {
     justify-content: space-between;
+    background-color: #23272a;
+    color: white;
 }
