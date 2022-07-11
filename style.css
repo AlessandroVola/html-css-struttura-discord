@@ -7,3 +7,44 @@
 body {
     font-family: sans-serif;
 }
+
+.flex {
+    display: flex;
+}
+
+/* body */
+.container {
+    padding: 0 100px;
+    background-color: #3161e0;
+
+}
+
+
+
+
+.nav {}
+
+
+/* header */
+
+
+.header {}
+
+/* nav */
+.nav {
+    justify-content: space-between;
+}
+
+.menu {
+    flex-direction: row;
+
+}
+
+
+
+/* presentazione */
+.presentation {
+    text-align: center;
+    padding: 40px 100px;
+
+}
