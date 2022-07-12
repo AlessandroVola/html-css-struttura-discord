@@ -116,11 +116,18 @@ body {
 }
 
 /* footer */
+.container-footer {
+    background-color: #23272a;
+
+}
+
 .footer {
     justify-content: space-between;
-    background-color: #23272a;
     color: #8fa1e1;
-    height: 200px;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1000px;
+
 
 }
 
@@ -132,5 +139,9 @@ hr {
     justify-content: space-between;
     background-color: #23272a;
     color: white;
+    height: 200px;
+    margin: 0 auto;
+    max-width: 1000px;
+
 
 }
